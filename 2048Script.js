@@ -45,7 +45,7 @@ window.onload = function() {
     //Preload the game
 	function onPreload() {
 		//Preload the tile image into the game
-		game.load.image("tile", "tile.png");
+		game.load.image("tile", "https://raw.githubusercontent.com/CurtisVermeeren/2048_Clone/master/tile.png");
 	}
 
 	//When the game has been created
